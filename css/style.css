@@ -1,0 +1,25 @@
+*{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+header{
+    position: fixed;
+    display: inline-flex;
+    height: 4rem;
+}
+
+.logo{
+    display: inline-flex;
+}
+
+header nav ul{
+    display: inline-flex;
+    float: right;
+}
+
+body{
+    position: relative;
+    top: 4rem;
+}
