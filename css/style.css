@@ -87,3 +87,91 @@ body{
     width: 50%;
     text-align: center;
 }
+
+.keep{
+    padding: 2rem 0 2rem 1.5rem;
+    width: 100%;
+    display: inline-flex;
+}
+
+.practicing{
+    width: 60%;
+    padding-right: 1.5rem;
+}
+
+.practicing img{
+    width: 100%;
+}
+
+.practicing h2{
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.practicing .quote{
+    font-size: .625rem;
+    font-weight: 300;
+    padding-bottom: 1.5rem;
+}
+
+.practicing .attribution{
+    font-size: .625rem;
+}
+
+.keep .dates{
+    width: 40%;
+}
+
+.orientation{
+    display: inline-flex;
+}
+
+.orientation img{
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+}
+
+.campus{
+    display: inline-flex;
+}
+
+.campus img{
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+}
+
+.lecture{
+    display: inline-flex;
+}
+
+.lecture img{
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap column;
+    
+}
+
+.list h3{
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+
+.list p{
+    font-size: .7rem;
+    padding-bottom: .5rem;
+}
+
+.list a{
+    font-size: .7rem;
+    color: cornflowerblue;
+}
