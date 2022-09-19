@@ -2,8 +2,9 @@
     font-family: sans-serif;
     font-size: 16px;
     text-align: left;
-    background-color: #ffffffae;
+    background-color: inherit;
     font-weight: 400;
+
 }
 
 header{
@@ -16,6 +17,7 @@ header{
 .header{
     display: inline-flex;
     width: 100%;
+    background-color:linen;
 }
 
 .logo{
@@ -48,6 +50,7 @@ nav ul li{
 body{
     position: relative;
     top: 4rem;
+    background-color:seashell;
 }
 
 .start{
@@ -55,7 +58,6 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #ffffff77;
 }
 
 .start img{
@@ -83,7 +85,7 @@ body{
 
 .learn a{
     padding: .5rem 3rem;
-    background-color: darkcyan;
+    background-color:darkgray;
     width: 50%;
     text-align: center;
 }
@@ -104,7 +106,7 @@ body{
 }
 
 .practicing h2{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
@@ -174,4 +176,35 @@ body{
 .list a{
     font-size: .7rem;
     color: cornflowerblue;
+}
+
+.learning h2{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 4.5rem;
+
+}
+
+.start img{
+    height: auto;
+}
+
+
+
+.exhibit{
+    width: 100%;
+}
+
+video{
+    width: 60%;
 }
