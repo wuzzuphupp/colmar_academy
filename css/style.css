@@ -50,7 +50,7 @@ nav ul li{
 body{
     position: relative;
     top: 4rem;
-    background-color:seashell;
+    background-color: gray;
 }
 
 .start{
@@ -123,7 +123,7 @@ body{
 }
 
 .keep .dates{
-    width: 40%;
+    max-width: 40%;
 }
 
 .orientation{
@@ -160,7 +160,6 @@ body{
     display: flex;
     justify-content: center;
     flex-flow: wrap column;
-    
 }
 
 .list h3{
@@ -178,11 +177,15 @@ body{
     color: cornflowerblue;
 }
 
+.learning{
+    width: 100%;
+}
+
 .learning h2{
     display: flex;
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 2rem 0;
+    padding-top: 2rem;
     justify-content: center;
     align-items: center;
 }
@@ -191,12 +194,52 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0 4.5rem;
-
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem 4.5rem;
 }
 
-.courses img{
+.class{
+    width: 25%;
+    margin: 2rem;
+    background-color: white;
+}
+
+.class img{
+    width: 100%;
     height: auto;
+}
+
+.class h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.class h4{
+    font-size: 0.8rem;
+    color: grey;
+    padding: 0.5rem 1rem;
+}
+
+.class p{
+    font-size: 0.8rem;
+    color: grey;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.thesis{
+    width: 100%;
+}
+
+.thesis h2{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
 }
 
 
